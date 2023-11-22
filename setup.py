@@ -10,7 +10,7 @@ with open(os.path.join(os.getcwd(), 'funk_svd/__version__.py')) as f:
     exec(f.read(), about)
 
 # Package requirements
-base_packages = ['numba>=0.38.0', 'numpy>=1.14.3', 'pandas>=0.23.0']
+base_packages = ['numpy>=1.14.3', 'pandas>=0.23.0']
 
 dev_packages = base_packages + [
     'flake8',
